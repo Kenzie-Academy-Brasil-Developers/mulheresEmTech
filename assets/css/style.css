@@ -4,6 +4,56 @@ body {
   background-color: #f1f3f5;
 }
 
+/* TITLE */
+
+.title-1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.title-2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.title-3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.title-4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+.title-5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.text-1 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.text-2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.text-3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
 /*HEADER*/
 
 header {
@@ -85,7 +135,7 @@ h2 {
   width: 818px;
   border-radius: 8px;
   padding: 38px;
-  height: 307px;
+  max-height: 307px;
   margin: 20px;
 }
 
@@ -127,4 +177,15 @@ aside {
 
   height: 316px;
   margin: 20px 30px;
+}
+
+aside h2 {
+  text-align: center;
+}
+
+.mini-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 38px;
+  height: 60px;
 }
