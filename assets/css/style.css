@@ -44,7 +44,7 @@ header h4 {
   margin-top: 10px;
 }
 
-header button {
+button {
   width: 296px;
   height: 48px;
   border-radius: 8px;
@@ -52,6 +52,7 @@ header button {
   cursor: pointer;
   padding: 12px 50px;
   gap: 10px;
+  color: #ffffff;
 }
 
 a {
@@ -89,8 +90,41 @@ h2 {
 }
 
 span {
+  height: 22px;
   font-size: 14px;
   font-weight: 400;
-  line-height: 22px;  
-  margin  : 15px;
+  line-height: 22px;
+  margin: 15px 0;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #343a40;
+  width: 85%;
+  margin: 20px 0;
+}
+
+.span2 {
+  display: block;
+  background-color: #dee2e6;
+  border-radius: 8px;
+  height: 30px;
+  width: 90px;
+  text-align: center;
+}
+
+.container-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  background-color: #ffffff;
+  width: 503px;
+  border-radius: 8px;
+
+  height: 316px;
+  margin: 20px 30px;
 }
