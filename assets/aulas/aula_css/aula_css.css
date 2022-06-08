@@ -1,0 +1,68 @@
+/* SELETORES */
+
+/* Seletor por nome da tag */
+h1 {
+    color:blueviolet;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100px;
+    height: 150px;
+    text-align: center;
+}
+
+span {
+    background-color: cadetblue;
+    /* display: inline-block; */
+    width: 300px;
+}
+
+/* Seletor por ID */
+#titulo {
+
+}
+
+#robo {
+    background-color: goldenrod;
+}
+
+#caixa_um {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+}
+
+#caixa_dois {
+    border: 2px solid rgb(189, 47, 47);
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+}
+
+/* Seletor por Classe */
+.titulo{
+    background-color:aquamarine;
+}
+
+li {
+    list-style:circle; 
+    cursor: pointer;
+}
+
+/* EXEMPLO FLEX */
+
+#container {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+}
+
+.filha {
+    width: 1100px;
+    height: 50px;
+    background-color: chocolate;
+    margin: 15px;
+}
