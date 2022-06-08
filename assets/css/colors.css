@@ -1,0 +1,61 @@
+/* Colors */
+.color-brand-1 {
+  color: var(--color-brand-1);
+}
+
+.color-brand-2 {
+  color: var(--color-brand-2);
+}
+
+.color-brand-3 {
+  color: var(--color-brand-3);
+}
+
+.color-grey-1 {
+  color: var(--color-grey-1);
+}
+
+.color-grey-2 {
+  color: var(--color-grey-2);
+}
+
+.color-grey-3 {
+  color: var(--color-grey-3);
+}
+
+.color-grey-4 {
+  color: var(--color-grey-4);
+}
+
+.color-grey-5 {
+  color: var(--color-grey-5);
+}
+
+.color-grey-6 {
+  color: var(--color-grey-6);
+}
+
+/* Background */
+.bg-color-brand-1 {
+  background-color: var(--color-brand-1);
+}
+
+.bg-color-brand-2 {
+  background-color: var(--color-brand-2);
+}
+
+.bg-color-grey-3 {
+  background-color: var(--color-grey-3);
+}
+
+.bg-color-grey-4 {
+  background-color: var(--color-grey-4);
+}
+
+.bg-color-grey-5 {
+  background-color: var(--color-grey-5);
+}
+
+.bg-color-grey-6 {
+  background-color: var(--color-grey-6);
+}
