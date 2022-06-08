@@ -1,57 +1,19 @@
+:root {
+  --color-brand-1: #bc00ff;
+  --color-brand-2: #540073;
+  --color-grey-1: #212529;
+  --color-grey-2: #343a40;
+  --color-grey-3: #dee2e6;
+  --color-grey-4: #e9ecef;
+  --color-grey-5: #f1f3f5;
+  --color-grey-6: #ffffff;
+  --radius-default: 8px;
+}
+
 body {
   height: 100vh;
   width: 100vw;
-  background-color: #f1f3f5;
-}
-
-/* TITLE */
-
-.title-1 {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 72px;
-}
-
-.title-2 {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 60px;
-}
-
-.title-3 {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 48px;
-}
-
-.title-4 {
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 33px;
-}
-
-.title-5 {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 26px;
-}
-
-.text-1 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 36px;
-}
-
-.text-2 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 32px;
-}
-
-.text-3 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 22px;
+  background-color: var(--color-grey-5);
 }
 
 /*HEADER*/
@@ -59,11 +21,14 @@ body {
 header {
   height: 562px;
   background-image: url(../img/header-bg.jpg);
+  
 }
 
 .container {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 header img {
@@ -72,25 +37,12 @@ header img {
   margin-top: 54px;
 }
 
-header h1 {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 72px;
-  color: #dee2e6;
-}
-
 header p {
-  font-weight: 400;
-  font-size: 18px;
   line-height: 36px;
-  color: #f1f3f5;
-  width: 60%;
 }
 
 header h4 {
   line-height: 36px;
-  color: #f1f3f5;
-  font-weight: 600;
   margin-top: 10px;
 }
 
@@ -115,19 +67,15 @@ a {
 
 /*MAIN*/
 
-h2 {
-  height: 33px;
-  margin: 15px auto;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 33px;
-}
 .main-container {
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
 
+h2 {
+  margin: 20px 0;
+}
 /*CARD DE VAGAS*/
 
 .card {
