@@ -1,0 +1,91 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f3f5;
+}
+
+/* HEADER */
+
+header {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  height: 462px;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+header p {
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-bottom: 15px;
+}
+.big-btn {
+  width: 296px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* MAIN */
+
+.little-btn {
+  width: 150px;
+  height: 38px;
+  border-radius: 8px;
+  border: none;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-vagas {
+  height: 307px;
+  width: 818px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 38px;
+  margin: 15px auto;
+}
+
+.span-card {
+  display: inline-block;
+  width: 117px;
+  margin-right: 8px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ASIDE */
+
+aside {
+  margin: 15px auto;
+  width: 503px;
+  height: 316px;
+}
+
+.box-candidatar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
