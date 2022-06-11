@@ -1,4 +1,4 @@
-//console.log("Hello World")
+console.log("Hello World")
 
 //Comentário de uma linha
 
@@ -41,9 +41,9 @@ let RecifeVerao = true
 
 let arrayExemplo = [9, 2022, "oi", true, "star wars", ["tudo bem", 2]]
 
-// console.log(arrayExemplo[0])
-// console.log(arrayExemplo[1])
-// console.log(arrayExemplo[2])
+//console.log(arrayExemplo[0])
+//console.log(arrayExemplo[1])
+//console.log(arrayExemplo[2])
 // console.log(arrayExemplo[3])
 
 //comprimento do array ou a qtd de elementos
@@ -51,6 +51,7 @@ let arrayExemplo = [9, 2022, "oi", true, "star wars", ["tudo bem", 2]]
 
 //adicionar elementos no array
 arrayExemplo.push("Kenzie")
+//console.log(arrayExemplo)
 
 //retirar o último elemento do array
 arrayExemplo.pop()
@@ -69,7 +70,7 @@ let pessoa = {
     idade: 18,
     cidadeNascimento: "Recife"
 }
-
+//console.log(pessoa)
 
 
 //console.log(pessoa.nome)
@@ -94,7 +95,7 @@ Ex:
 
 
 DIFERENCIAÇÃO
-1) !== Não Idêntico => avalis se os valores E os tipos são diferentes.
+1) !== Não Idêntico => avalia se os valores E os tipos são diferentes.
 Ex:
 3 !== "3" // true
 3 !== 3 // false
@@ -188,7 +189,7 @@ function saudacao(){
     return "Oi! Tudo bem?"
 }
 
-//console.log(saudacao())
+console.log(saudacao())
 
 /*
 LOOPS

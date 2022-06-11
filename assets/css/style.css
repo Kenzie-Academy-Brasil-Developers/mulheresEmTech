@@ -54,6 +54,12 @@ a {
 }
 
 /* MAIN */
+
+#vagas {
+  margin: 30px 0;
+  text-align: start;
+}
+
 .little-btn {
   width: 150px;
   height: 38px;
@@ -112,12 +118,12 @@ a {
 aside {
   margin: 15px auto;
   width: 503px;
-  height: 316px;
+  /* height: 316px; */
 }
 
 aside h2 {
-  text-align: center;
-  margin-top: 20px;
+  text-align: start;
+  margin: 30px 20px;
 }
 
 .vaga-selecionada-card {
